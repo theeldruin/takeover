@@ -6,4 +6,4 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "teste" > /var/www/html/eldruintop.txt
+      - run: echo "$(id)"
